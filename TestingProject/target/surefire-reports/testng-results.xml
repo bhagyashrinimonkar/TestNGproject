@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T23:03:53 GMT-05:00" name="Suite" finished-at="2023-02-11T23:04:10 GMT-05:00" duration-ms="17159">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyBuildTitleName()[pri:-1, instance:test.LoginTest@25641d39]" name="verifyBuildTitleName" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyTitleOfLoginPage()[pri:0, instance:test.LoginTest@25641d39]" name="verifyTitleOfLoginPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@25641d39]" name="verifyCurrentUrlOfPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@25641d39]" name="verifyLoginWithCorrectCredentials" class="test.LoginTest"/>
+        <method signature="PIMTest.verifyPimPageTitle()[pri:3, instance:test.PIMTest@63376bed]" name="verifyPimPageTitle" class="test.PIMTest"/>
+        <method signature="PIMTest.verifyEmpSearchEmpId()[pri:4, instance:test.PIMTest@63376bed]" name="verifyEmpSearchEmpId" class="test.PIMTest"/>
+        <method signature="PIMTest.TestIngChanges()[pri:5, instance:test.PIMTest@63376bed]" name="TestIngChanges" class="test.PIMTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyBuildTitleName()[pri:-1, instance:test.LoginTest@25641d39]" name="verifyBuildTitleName" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyTitleOfLoginPage()[pri:0, instance:test.LoginTest@25641d39]" name="verifyTitleOfLoginPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@25641d39]" name="verifyCurrentUrlOfPage" class="test.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@25641d39]" name="verifyLoginWithCorrectCredentials" class="test.LoginTest"/>
+        <method signature="PIMTest.verifyPimPageTitle()[pri:3, instance:test.PIMTest@63376bed]" name="verifyPimPageTitle" class="test.PIMTest"/>
+        <method signature="PIMTest.verifyEmpSearchEmpId()[pri:4, instance:test.PIMTest@63376bed]" name="verifyEmpSearchEmpId" class="test.PIMTest"/>
+        <method signature="PIMTest.TestIngChanges()[pri:5, instance:test.PIMTest@63376bed]" name="TestIngChanges" class="test.PIMTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-02-11T23:03:53 GMT-05:00" name="Test" finished-at="2023-02-11T23:04:10 GMT-05:00" duration-ms="17159">
+      <class name="test.PIMTest">
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:01 GMT-05:00" name="pageObjects" finished-at="2023-02-11T23:04:01 GMT-05:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method is-config="true" signature="login()[pri:0, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:01 GMT-05:00" name="login" finished-at="2023-02-11T23:04:04 GMT-05:00" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyPimPageTitle()[pri:3, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:04 GMT-05:00" name="verifyPimPageTitle" finished-at="2023-02-11T23:04:06 GMT-05:00" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPimPageTitle -->
+        <test-method signature="verifyEmpSearchEmpId()[pri:4, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:06 GMT-05:00" name="verifyEmpSearchEmpId" finished-at="2023-02-11T23:04:06 GMT-05:00" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmpSearchEmpId -->
+        <test-method signature="TestIngChanges()[pri:5, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:06 GMT-05:00" name="TestIngChanges" finished-at="2023-02-11T23:04:06 GMT-05:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestIngChanges -->
+        <test-method is-config="true" signature="logOutUser()[pri:0, instance:test.PIMTest@63376bed]" started-at="2023-02-11T23:04:06 GMT-05:00" name="logOutUser" finished-at="2023-02-11T23:04:10 GMT-05:00" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser -->
+      </class> <!-- test.PIMTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:43 GMT-05:00" name="initBrowser" finished-at="2023-02-11T23:03:53 GMT-05:00" duration-ms="10054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:53 GMT-05:00" name="pageObjects" finished-at="2023-02-11T23:03:53 GMT-05:00" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyBuildTitleName()[pri:-1, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:53 GMT-05:00" name="verifyBuildTitleName" finished-at="2023-02-11T23:03:53 GMT-05:00" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuildTitleName -->
+        <test-method signature="verifyTitleOfLoginPage()[pri:0, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:53 GMT-05:00" name="verifyTitleOfLoginPage" finished-at="2023-02-11T23:03:54 GMT-05:00" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfLoginPage -->
+        <test-method signature="verifyCurrentUrlOfPage()[pri:1, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:54 GMT-05:00" name="verifyCurrentUrlOfPage" finished-at="2023-02-11T23:03:54 GMT-05:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrentUrlOfPage -->
+        <test-method signature="verifyLoginWithCorrectCredentials()[pri:2, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:54 GMT-05:00" name="verifyLoginWithCorrectCredentials" finished-at="2023-02-11T23:03:57 GMT-05:00" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCredentials -->
+        <test-method is-config="true" signature="logOutUser()[pri:0, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:03:57 GMT-05:00" name="logOutUser" finished-at="2023-02-11T23:04:01 GMT-05:00" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser -->
+        <test-method is-config="true" signature="logoutUser()[pri:0, instance:test.LoginTest@25641d39]" started-at="2023-02-11T23:04:10 GMT-05:00" name="logoutUser" finished-at="2023-02-11T23:04:11 GMT-05:00" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
